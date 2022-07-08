@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "7984BB6F-F5DB-405D-964B-33D2E09C1229"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FA8E2D46-603A-4158-A32F-43D3E34DBC04"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "zar atma oyunu/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "FA8E2D46-603A-4158-A32F-43D3E34DBC04 - 2668e0d243eb5e79"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "zar_atma_oyunu.ViewController.imgDice1.getter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "zar atma oyunu"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alierdemkokcik/Documents/Swift/zar%20atma%20oyunu/zar%20atma%20oyunu/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "FA8E2D46-603A-4158-A32F-43D3E34DBC04 - 51a98cf7d22f720d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "zar_atma_oyunu.ViewController.imgDice1.setter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "zar atma oyunu"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alierdemkokcik/Documents/Swift/zar%20atma%20oyunu/zar%20atma%20oyunu/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "FA8E2D46-603A-4158-A32F-43D3E34DBC04 - bf97938af9a1357c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "zar_atma_oyunu.ViewController.imgDice1.modify : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "zar atma oyunu"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alierdemkokcik/Documents/Swift/zar%20atma%20oyunu/zar%20atma%20oyunu/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "FA8E2D46-603A-4158-A32F-43D3E34DBC04 - 72065e0ef9c18711"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "zar_atma_oyunu.ViewController.imgDice1.modify : Swift.Optional&lt;__C.UIImageView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "zar atma oyunu"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alierdemkokcik/Documents/Swift/zar%20atma%20oyunu/zar%20atma%20oyunu/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "FA8E2D46-603A-4158-A32F-43D3E34DBC04 - 4a590d3c1db1dce7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "zar_atma_oyunu.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; zar_atma_oyunu.ViewController"
+                  moduleName = "zar atma oyunu"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alierdemkokcik/Documents/Swift/zar%20atma%20oyunu/zar%20atma%20oyunu/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "432">
+               </Location>
+               <Location
+                  uuid = "FA8E2D46-603A-4158-A32F-43D3E34DBC04 - 6e67276bb30a88a3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "zar_atma_oyunu.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;zar_atma_oyunu.ViewController&gt;"
+                  moduleName = "zar atma oyunu"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alierdemkokcik/Documents/Swift/zar%20atma%20oyunu/zar%20atma%20oyunu/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "408">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F0981856-A909-4E93-A597-4C13F0B7D8D7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "zar atma oyunu/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

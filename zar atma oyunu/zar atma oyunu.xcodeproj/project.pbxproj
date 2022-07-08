@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		437C486D286C90F9002BE29E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437C486C286C90F9002BE29E /* AppDelegate.swift */; };
+		437C486F286C90F9002BE29E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437C486E286C90F9002BE29E /* SceneDelegate.swift */; };
+		437C4871286C90F9002BE29E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437C4870286C90F9002BE29E /* ViewController.swift */; };
+		437C4874286C90F9002BE29E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 437C4872286C90F9002BE29E /* Main.storyboard */; };
+		437C4876286C90FA002BE29E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 437C4875286C90FA002BE29E /* Assets.xcassets */; };
+		437C4879286C90FA002BE29E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 437C4877286C90FA002BE29E /* LaunchScreen.storyboard */; };
+		437C4884286C90FA002BE29E /* zar_atma_oyunuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437C4883286C90FA002BE29E /* zar_atma_oyunuTests.swift */; };
+		437C488E286C90FA002BE29E /* zar_atma_oyunuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437C488D286C90FA002BE29E /* zar_atma_oyunuUITests.swift */; };
+		437C4890286C90FA002BE29E /* zar_atma_oyunuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437C488F286C90FA002BE29E /* zar_atma_oyunuUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		437C4880286C90FA002BE29E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 437C4861286C90F9002BE29E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 437C4868286C90F9002BE29E;
+			remoteInfo = "zar atma oyunu";
+		};
+		437C488A286C90FA002BE29E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 437C4861286C90F9002BE29E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 437C4868286C90F9002BE29E;
+			remoteInfo = "zar atma oyunu";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		437C4869286C90F9002BE29E /* zar atma oyunu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "zar atma oyunu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		437C486C286C90F9002BE29E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		437C486E286C90F9002BE29E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		437C4870286C90F9002BE29E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		437C4873286C90F9002BE29E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		437C4875286C90FA002BE29E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		437C4878286C90FA002BE29E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		437C487A286C90FA002BE29E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		437C487F286C90FA002BE29E /* zar atma oyunuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "zar atma oyunuTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		437C4883286C90FA002BE29E /* zar_atma_oyunuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zar_atma_oyunuTests.swift; sourceTree = "<group>"; };
+		437C4889286C90FA002BE29E /* zar atma oyunuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "zar atma oyunuUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		437C488D286C90FA002BE29E /* zar_atma_oyunuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zar_atma_oyunuUITests.swift; sourceTree = "<group>"; };
+		437C488F286C90FA002BE29E /* zar_atma_oyunuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zar_atma_oyunuUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		437C4866286C90F9002BE29E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		437C487C286C90FA002BE29E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		437C4886286C90FA002BE29E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		437C4860286C90F9002BE29E = {
+			isa = PBXGroup;
+			children = (
+				437C486B286C90F9002BE29E /* zar atma oyunu */,
+				437C4882286C90FA002BE29E /* zar atma oyunuTests */,
+				437C488C286C90FA002BE29E /* zar atma oyunuUITests */,
+				437C486A286C90F9002BE29E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		437C486A286C90F9002BE29E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				437C4869286C90F9002BE29E /* zar atma oyunu.app */,
+				437C487F286C90FA002BE29E /* zar atma oyunuTests.xctest */,
+				437C4889286C90FA002BE29E /* zar atma oyunuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		437C486B286C90F9002BE29E /* zar atma oyunu */ = {
+			isa = PBXGroup;
+			children = (
+				437C486C286C90F9002BE29E /* AppDelegate.swift */,
+				437C486E286C90F9002BE29E /* SceneDelegate.swift */,
+				437C4870286C90F9002BE29E /* ViewController.swift */,
+				437C4872286C90F9002BE29E /* Main.storyboard */,
+				437C4875286C90FA002BE29E /* Assets.xcassets */,
+				437C4877286C90FA002BE29E /* LaunchScreen.storyboard */,
+				437C487A286C90FA002BE29E /* Info.plist */,
+			);
+			path = "zar atma oyunu";
+			sourceTree = "<group>";
+		};
+		437C4882286C90FA002BE29E /* zar atma oyunuTests */ = {
+			isa = PBXGroup;
+			children = (
+				437C4883286C90FA002BE29E /* zar_atma_oyunuTests.swift */,
+			);
+			path = "zar atma oyunuTests";
+			sourceTree = "<group>";
+		};
+		437C488C286C90FA002BE29E /* zar atma oyunuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				437C488D286C90FA002BE29E /* zar_atma_oyunuUITests.swift */,
+				437C488F286C90FA002BE29E /* zar_atma_oyunuUITestsLaunchTests.swift */,
+			);
+			path = "zar atma oyunuUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		437C4868286C90F9002BE29E /* zar atma oyunu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 437C4893286C90FA002BE29E /* Build configuration list for PBXNativeTarget "zar atma oyunu" */;
+			buildPhases = (
+				437C4865286C90F9002BE29E /* Sources */,
+				437C4866286C90F9002BE29E /* Frameworks */,
+				437C4867286C90F9002BE29E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "zar atma oyunu";
+			productName = "zar atma oyunu";
+			productReference = 437C4869286C90F9002BE29E /* zar atma oyunu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		437C487E286C90FA002BE29E /* zar atma oyunuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 437C4896286C90FA002BE29E /* Build configuration list for PBXNativeTarget "zar atma oyunuTests" */;
+			buildPhases = (
+				437C487B286C90FA002BE29E /* Sources */,
+				437C487C286C90FA002BE29E /* Frameworks */,
+				437C487D286C90FA002BE29E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				437C4881286C90FA002BE29E /* PBXTargetDependency */,
+			);
+			name = "zar atma oyunuTests";
+			productName = "zar atma oyunuTests";
+			productReference = 437C487F286C90FA002BE29E /* zar atma oyunuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		437C4888286C90FA002BE29E /* zar atma oyunuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 437C4899286C90FA002BE29E /* Build configuration list for PBXNativeTarget "zar atma oyunuUITests" */;
+			buildPhases = (
+				437C4885286C90FA002BE29E /* Sources */,
+				437C4886286C90FA002BE29E /* Frameworks */,
+				437C4887286C90FA002BE29E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				437C488B286C90FA002BE29E /* PBXTargetDependency */,
+			);
+			name = "zar atma oyunuUITests";
+			productName = "zar atma oyunuUITests";
+			productReference = 437C4889286C90FA002BE29E /* zar atma oyunuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		437C4861286C90F9002BE29E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					437C4868286C90F9002BE29E = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					437C487E286C90FA002BE29E = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 437C4868286C90F9002BE29E;
+					};
+					437C4888286C90FA002BE29E = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 437C4868286C90F9002BE29E;
+					};
+				};
+			};
+			buildConfigurationList = 437C4864286C90F9002BE29E /* Build configuration list for PBXProject "zar atma oyunu" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 437C4860286C90F9002BE29E;
+			productRefGroup = 437C486A286C90F9002BE29E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				437C4868286C90F9002BE29E /* zar atma oyunu */,
+				437C487E286C90FA002BE29E /* zar atma oyunuTests */,
+				437C4888286C90FA002BE29E /* zar atma oyunuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		437C4867286C90F9002BE29E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				437C4879286C90FA002BE29E /* LaunchScreen.storyboard in Resources */,
+				437C4876286C90FA002BE29E /* Assets.xcassets in Resources */,
+				437C4874286C90F9002BE29E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		437C487D286C90FA002BE29E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		437C4887286C90FA002BE29E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		437C4865286C90F9002BE29E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				437C4871286C90F9002BE29E /* ViewController.swift in Sources */,
+				437C486D286C90F9002BE29E /* AppDelegate.swift in Sources */,
+				437C486F286C90F9002BE29E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		437C487B286C90FA002BE29E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				437C4884286C90FA002BE29E /* zar_atma_oyunuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		437C4885286C90FA002BE29E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				437C4890286C90FA002BE29E /* zar_atma_oyunuUITestsLaunchTests.swift in Sources */,
+				437C488E286C90FA002BE29E /* zar_atma_oyunuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		437C4881286C90FA002BE29E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 437C4868286C90F9002BE29E /* zar atma oyunu */;
+			targetProxy = 437C4880286C90FA002BE29E /* PBXContainerItemProxy */;
+		};
+		437C488B286C90FA002BE29E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 437C4868286C90F9002BE29E /* zar atma oyunu */;
+			targetProxy = 437C488A286C90FA002BE29E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		437C4872286C90F9002BE29E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				437C4873286C90F9002BE29E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		437C4877286C90FA002BE29E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				437C4878286C90FA002BE29E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		437C4891286C90FA002BE29E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		437C4892286C90FA002BE29E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		437C4894286C90FA002BE29E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "zar atma oyunu/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ali-Erdem-Ko-kcik.zar-atma-oyunu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		437C4895286C90FA002BE29E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "zar atma oyunu/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ali-Erdem-Ko-kcik.zar-atma-oyunu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		437C4897286C90FA002BE29E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ali-Erdem-Ko-kcik.zar-atma-oyunuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zar atma oyunu.app/zar atma oyunu";
+			};
+			name = Debug;
+		};
+		437C4898286C90FA002BE29E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ali-Erdem-Ko-kcik.zar-atma-oyunuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zar atma oyunu.app/zar atma oyunu";
+			};
+			name = Release;
+		};
+		437C489A286C90FA002BE29E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ali-Erdem-Ko-kcik.zar-atma-oyunuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "zar atma oyunu";
+			};
+			name = Debug;
+		};
+		437C489B286C90FA002BE29E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ali-Erdem-Ko-kcik.zar-atma-oyunuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "zar atma oyunu";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		437C4864286C90F9002BE29E /* Build configuration list for PBXProject "zar atma oyunu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				437C4891286C90FA002BE29E /* Debug */,
+				437C4892286C90FA002BE29E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		437C4893286C90FA002BE29E /* Build configuration list for PBXNativeTarget "zar atma oyunu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				437C4894286C90FA002BE29E /* Debug */,
+				437C4895286C90FA002BE29E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		437C4896286C90FA002BE29E /* Build configuration list for PBXNativeTarget "zar atma oyunuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				437C4897286C90FA002BE29E /* Debug */,
+				437C4898286C90FA002BE29E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		437C4899286C90FA002BE29E /* Build configuration list for PBXNativeTarget "zar atma oyunuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				437C489A286C90FA002BE29E /* Debug */,
+				437C489B286C90FA002BE29E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 437C4861286C90F9002BE29E /* Project object */;
+}
